@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Aplicativo de Tarefas</h1>
+
+  <!-- Soma dos Números -->
+  <div>
+    <h2>1. Soma de Números</h2>
+    <input id="num1" type="number" placeholder="Número 1">
+    <input id="num2" type="number" placeholder="Número 2">
+    <button id="calc-btn">Calcular Soma</button>
+    <div id="calc-result"></div>
+  </div>
+
+  <!-- Rotina Diária -->
+  <div>
+    <h2>2. Rotina Diária</h2>
+    <textarea id="rotina-input" placeholder="Descreva sua rotina para sábado e domingo"></textarea>
+    <button id="rotina-btn">Adicionar Rotina</button>
+  </div>
+
+  <!-- Matérias para Estudar -->
+  <div>
+    <h2>3. Matérias para Estudar</h2>
+    <input id="materia-input" placeholder="Digite a matéria">
+    <button id="add-materia-btn">Adicionar Matéria</button>
+  </div>
+
+  <!-- Tabela de Tarefas -->
+  <h2>Tarefas</h2>
+  <table id="task-table" border="1">
+    <thead>
+      <tr>
+        <th>Tarefa</th>
+        <th>Resultado</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- As tarefas serão inseridas aqui dinamicamente -->
+    </tbody>
+  </table>
+
+  <!-- Incluindo o script -->
+  <script src="app.js"></script>
+  <script src="style.css"></script>
+</body>
+</html>
